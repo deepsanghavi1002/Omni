@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Omni India | Private Proof of Personhood</title>
+    <meta name="description" content="India-only proof-of-personhood concept with biometric passkey login and India data residency." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="brand"><span class="brand-mark">O</span><span>Omni India</span></div>
+      <div class="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#residency">India data</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">India-only private proof of personhood</p>
+          <h1>One human. One private proof. Data stays in India.</h1>
+          <p class="hero-text">Omni India is a World-style identity and humanity verification concept built for India: biometric login through device passkeys, consent-first onboarding, and India-region infrastructure.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#start">Start verification</a>
+            <a class="secondary-button" href="#privacy">See privacy promise</a>
+          </div>
+          <p class="disclaimer">MVP note: Aadhaar biometric authentication is not enabled. It should only be added after regulatory approval.</p>
+        </div>
+
+        <div class="orb-card" aria-label="Omni biometric proof visual">
+          <div class="orb"><div class="orb-inner"></div></div>
+          <div class="status-panel"><span class="status-dot"></span><span>Passkey ready</span></div>
+          <div class="identity-card">
+            <p>Proof status</p>
+            <strong>Not verified yet</strong>
+            <span>Private credential will appear here</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="start" class="section grid-3">
+        <div class="card">
+          <span class="pill">Consent first</span>
+          <h2>Your permission is the starting point.</h2>
+          <p>Before verification, users see exactly what is collected, why it is needed, where it is stored, and how to revoke consent.</p>
+          <ul><li>Clear purpose</li><li>Explicit consent</li><li>Easy withdrawal</li></ul>
+        </div>
+        <div class="card">
+          <span class="pill">India only</span>
+          <h2>Data stays within Indian borders.</h2>
+          <p>The production architecture should keep personal data, logs, backups, and encryption keys in India-region infrastructure.</p>
+          <ul><li>India cloud region</li><li>India KMS keys</li><li>India-only backups</li></ul>
+        </div>
+        <div class="card dark-card">
+          <h2>Biometric login</h2>
+          <p>Use Face ID, Touch ID, Android biometrics, or a security key through passkeys. The app does not need to receive your raw fingerprint or face scan.</p>
+          <button class="wide-button">Create biometric passkey</button>
+        </div>
+      </section>
+
+      <section id="how" class="section split">
+        <div>
+          <p class="eyebrow">Simple user journey</p>
+          <h2>World-like experience, Indian privacy design.</h2>
+          <p>The goal is to prove that a user is a unique real person without building a dangerous central biometric database.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Create passkey</h3><p>User creates a device-bound passkey protected by phone biometrics.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Give consent</h3><p>User approves India-only processing and sees data-use purpose.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Verify uniqueness</h3><p>A regulated verification partner or approved flow confirms one-person-one-proof.</p></div></div>
+          <div class="step"><span>04</span><div><h3>Receive private proof</h3><p>User gets a reusable credential without exposing raw biometric data.</p></div></div>
+        </div>
+      </section>
+
+      <section id="privacy" class="section privacy-section">
+        <p class="eyebrow">Privacy promise</p>
+        <h2>Designed to minimize sensitive data.</h2>
+        <div class="privacy-grid">
+          <div><h3>No raw biometrics on server</h3><p>Use device biometrics only to unlock a passkey. Store proof records, not face, iris, or fingerprint images.</p></div>
+          <div><h3>Consent log</h3><p>Every permission is recorded with purpose, time, version, and revocation status.</p></div>
+          <div><h3>India-region only</h3><p>App servers, database, logs, backups, and encryption keys should remain in Indian regions.</p></div>
+          <div><h3>Regulated Aadhaar path</h3><p>Aadhaar can be added only through compliant, approved flows. The MVP keeps it disabled.</p></div>
+        </div>
+      </section>
+
+      <section id="residency" class="section residency-band">
+        <div><p class="eyebrow">Deployment rule</p><h2>Border-controlled infrastructure</h2></div>
+        <p>Production should enforce India-only regions, India-only backups, India-only KMS keys, audit logging, strict access control, and vendor contracts that prevent cross-border support access to personal data.</p>
+      </section>
+    </main>
+
+    <footer><span>Omni India</span><span>Private proof-of-personhood MVP</span></footer>
+  </body>
+</html>
